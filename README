@@ -1,3 +1,4 @@
+
 latest_tag=$(git ls-remote --tags "https://$latest_tag:1F5C6tqcbZDyzVbpjnjN@dev.core-bpo.net/dev/odoo/lifemakers.git" | awk '{print $2}'>
 backup_tag="/root/backups/2023-05-23-14.0.20230522-1/$(date +%Y-%m-%d)-$latest_tag"
 mkdir -p "$backup_tag"
