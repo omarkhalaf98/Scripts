@@ -1,0 +1,26 @@
+Create an Amazon VPC with a CIDR block .
+
+Create two private subnets in different availability zones within the VPC.
+
+Create two Amazon RDS instances running PostgreSQL in each private subnet.
+
+Create an Application Load Balancer and configure it to distribute traffic between the Odoo instances.
+
+Create two Amazon EC2 instances running Odoo 10 in each private subnet.
+
+Configure the security groups for the RDS instances, Application Load Balancer, and EC2 instances to allow traffic as needed.
+
+Configure Amazon Route 53 to route traffic to the Application Load Balancer.
+
+Configure SNS notifications for your auto-scaling group to receive notifications when instances are launched or terminated.
+
+Configure CloudWatch alarms to monitor the performance and health of your instances and trigger auto-scaling based on the project needs.
+
+Set up EFS to mount shared storage between your EC2 instances and store your Odoo 10 application data
+
+Set up EFS to mount shared storage between your EC2 instances and store your Odoo 10 application data.
+
+Set up regular backups of your RDS instance to S3 using AWS Backup.
+
+
+/*u can dowmload odoo 10 outsourced because its not on EC2 market anymore*/ 
