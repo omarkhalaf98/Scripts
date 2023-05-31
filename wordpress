@@ -1,0 +1,45 @@
+What is WordPress:
+	Its and opensource content management system that its written in hypertext preprocessor language and paired with mysql and mariadb database (it stores content and enables users to create webpages )  
+	
+	
+Installation:
+
+	•      sudo update
+	•       sudo apt update
+	•       apt install mysql-client-core-8.0
+	•       sudo apt install mysql-server
+	•       sudo mysql -u root
+	•       sudo update
+	•       sudo apt update
+	•       sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
+	•       sudo systemctl restart apache2
+	•      sudo apt install apache2
+	•      sudo systemctl restart apache2
+	•      sudo nano /etc
+	•      sudo nano /etc/apache2/sites-available-wordpress.conf
+	•      sudo a2enmod rewrite
+	•      sudo a2enmod rewrite
+	•      sudo apache2ctl configtest
+	•      sudo systemctl restart apache2
+	•      cd /tmp
+	•      curl -O https://wordpress.org/latest.tar.gz
+	•      tar xzvf latest.tar.gz
+	•      touch /tmp/wordpres/.htaccess
+	•      touch /tmp/wordpress/.htaccess
+	•     cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
+	•     mkdir /tmp/wordpress/wp-content/upgrade
+	•     sudo cp -a /tmp/wordpress/./var/www/wprdpress
+	•     sudo cp -a /tmp/wordpress/. /var/www/wordpress
+	•     sudo chown -R www-data:www-data /var/www/wordpress
+	•     sudo find /var/www/wordpress/ -type d -exec chmod 750  {} \;
+	•     sudo find /var/www/wordpress/ -type f -exec chmod 640 {} \;
+	•     curl -s https://api.wordpress.org/secret-key/1.1/salt/
+	•     sudo nano /var/www/wordpress/wp-config.php
+	•     ip
+	•     url
+	•     ip -help
+	•     ip -batch
+	•    histroy
+	•    sudo histroy
+	•    history
+ 
